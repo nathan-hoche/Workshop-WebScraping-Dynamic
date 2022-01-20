@@ -12,6 +12,10 @@
 </h3>
 <br><br>
 
+### **What's a scrap?**
+Scrapping is the action of collecting source code of a web page, with a program.
+<br><br>
+
 # **Before this workshop**
 
 In the previous workshop, we saw how to make a dynamic dictionary using 
@@ -75,6 +79,14 @@ So lets connect your account automatically:<br>
 Now, we are connected to the website, on the main game page, so let's start our bot.<br>
 Now we can see a button with `Step` as content, it's the main game button.<br>
 1- Using class `By` created by selenium, find the button element.<br>
+The class `By` can be used like:
+```python
+from selenium.webdriver.common.by import By
+...
+elem = browser.find_element(By.XPATH, ...)
+...
+```
+> By contain different type of searching like XPATH, CSSSelector, id, etc etc^
 2- Click on this object<br>
 3- Use `random` and `time sleep`, to create a bot thats looks more like a human player.<br>
 
@@ -85,6 +97,7 @@ Now we can see a button with `Step` as content, it's the main game button.<br>
 In this game, sometimes there are different type of action such as: story, fight ect.. As we are handling story, let's try "fight" interaction.<br>
 1- Reproduce stepping part, but adapted for the fighting mode<br>
 2- When we click on this button another page is loading, so you need to make your code do the same.<br>
+> Your type of action need to be based on the content of the actual webpage
 3- Make your bot click on the attack button<br>
 
 <br>
