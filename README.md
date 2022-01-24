@@ -66,6 +66,7 @@ As we are going to load javascript, we need a web driver.<br>
 This website uses cookies to auto connect the user.<br>
 So lets connect your account automatically:<br>
 1- Save your cookie inside a Json<br>
+> To get your cookie use selenium
 2- Add cookies to the webdriver<br>
 3- Get the following webpage
 > https://web.simple-mmo.com/travel
