@@ -86,7 +86,8 @@ from selenium.webdriver.common.by import By
 elem = browser.find_element(By.XPATH, ...)
 ...
 ```
-> By contain different type of searching like XPATH, CSSSelector, id, etc etc^
+> By contain different type of searching like XPATH, CSSSelector, id, etc etc
+
 2- Click on this object<br>
 3- Use `random` and `time sleep`, to create a bot thats looks more like a human player.<br>
 
