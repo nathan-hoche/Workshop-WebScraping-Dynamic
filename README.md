@@ -1,5 +1,5 @@
 <h1 align="center">
-    Workshop - Web Scrapping with Python - Part 2
+    Workshop - Web Scraping with Python - Part 2
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <br><br>
 
 ### **What's a scrap?**
-Scrapping is the action of collecting source code of a web page, with a program.
+Scraping is the action of collecting source code of a web page, with a program.
 <br><br>
 
 # **Before this workshop**
@@ -21,7 +21,7 @@ Scrapping is the action of collecting source code of a web page, with a program.
 In the previous workshop, we saw how to make a dynamic dictionary using 
 the Larousse's website.
 <br><br>
-We also took a look to different ways to protect a website against webscrapping. <br>
+We also took a look to different ways to protect a website against webscraping. <br>
 So today we are going to see how to pass through these protections. :wink: <br>
 More precisely how to pass through dynamic website (website using javascript for html generation).
 <br><br>
